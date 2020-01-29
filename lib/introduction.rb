@@ -3,21 +3,21 @@
 # thing is NOT to "complete labs," the important thing is to learn the skills you need
 # in order to complete the rest of this course and be ready for the next course!
 def introduction(name)
-  print "Hi, my name is #{name}.\n"
+  p "Hi, my name is #{name}.\n"
 end
 
 introduction("Josh")
 introduction("Dan")
 
 def introduction_with_language(name, language)
-  print "Hi, my name is #{name}and I am learning to program in #{language}.\n "
+  p "Hi, my name is #{name}and I am learning to program in #{language}.\n "
 end
 
 introduction_with_language("Dan", "Ember.js")
 introduction_with_language("Josh", "React")
 
 def introduction_with_language_optional(name, language = 'Ruby')
-  print "Hi, my name is #{name} and I am learning to program in #{language}. \n"
+  p "Hi, my name is #{name} and I am learning to program in #{language}. \n"
 end
 
 introduction_with_language_optional("Edwin", "Python")
